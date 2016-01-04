@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Extra Youtube Play Button",
+  "description": "This extension enables one to pause or play youtube video without having to actually click on the play button. Immensely helpful during a comment war",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "res/social_youtube-32.png",
+    "default_popup": "popup.html"
+  },
+  
+  "web_accessible_resources": [
+      "css/bootstrap.min.css",
+      "css/font-awesome.min.css"
+  ],
+  
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
